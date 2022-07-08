@@ -121,7 +121,7 @@ extension PasswordVC {
         
         customConfirmView.snp.makeConstraints {
             $0.left.right.bottom.equalToSuperview()
-            $0.height.equalTo(Layouts.CONTAINER_BOTTOM_BUTTON_HEIGHT)
+            $0.height.equalTo(64)
         }
 
     }

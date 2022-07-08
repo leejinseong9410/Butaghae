@@ -108,7 +108,7 @@ extension CustomInputView {
             $0.top.equalTo(guideTextLabel.snp.bottom).offset(12)
             $0.left.equalToSuperview()
             $0.right.equalToSuperview().inset(inputType == .inputVerifyCode ? 45 : 0)
-            $0.height.equalTo(Layouts.TEXT_FIELD_HEIGHT)
+            $0.height.equalTo(19)
         }
         numberUnderLineView.snp.makeConstraints {
             $0.top.equalTo(numberTextField.snp.bottom)

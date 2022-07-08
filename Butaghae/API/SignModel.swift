@@ -13,10 +13,6 @@ import CoreData
 
 class SignModel {
 
-    let firebaseManager: FirebaseManager
-    init(firebaseManager: FirebaseManager = FirebaseManager()) {
-        self.firebaseManager = firebaseManager
-    }
-    
+
     
 }

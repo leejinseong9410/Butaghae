@@ -10,7 +10,6 @@ import UIKit
 
 class SchemeUtil {
     
-    
     func open(link: String, completion: @escaping (Bool) -> ()) {
         if let url = URL(string: link),
             UIApplication.shared.canOpenURL(url) {
