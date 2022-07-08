@@ -31,7 +31,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         // FCM
         setupFcmService(application)
-
+        
+        //Splash 넘겨주기..
         setupWindow()
         
         return true
