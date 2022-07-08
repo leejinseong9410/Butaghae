@@ -61,6 +61,7 @@
 		52BBDF1128193A0000F73C29 /* BasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BBDF1028193A0000F73C29 /* BasicVC.swift */; };
 		52BBDF22281A219E00F73C29 /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BBDF21281A219E00F73C29 /* SplashVC.swift */; };
 		52BBDF24281A21AA00F73C29 /* SplashVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BBDF23281A21AA00F73C29 /* SplashVM.swift */; };
+		52CF0D8D2877D7A20008B979 /* JinseongTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF0D8C2877D7A20008B979 /* JinseongTest.swift */; };
 		52E864DE281B995A0012CB3C /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E864DD281B995A0012CB3C /* ApiError.swift */; };
 		9298A9264947444AFD19CC5D /* Pods_Butaghae.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BEC4AE7DC1C5975C1FD7C02 /* Pods_Butaghae.framework */; };
 /* End PBXBuildFile section */
@@ -124,6 +125,7 @@
 		52BBDF1028193A0000F73C29 /* BasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicVC.swift; sourceTree = "<group>"; };
 		52BBDF21281A219E00F73C29 /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		52BBDF23281A21AA00F73C29 /* SplashVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVM.swift; sourceTree = "<group>"; };
+		52CF0D8C2877D7A20008B979 /* JinseongTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JinseongTest.swift; sourceTree = "<group>"; };
 		52E864DD281B995A0012CB3C /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
 		6D0871E41D97D39ABD2D8F12 /* Pods-Butaghae.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butaghae.debug.xcconfig"; path = "Target Support Files/Pods-Butaghae/Pods-Butaghae.debug.xcconfig"; sourceTree = "<group>"; };
 		78B7BC058F1AF7E117459FC4 /* Pods-Butaghae.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Butaghae.release.xcconfig"; path = "Target Support Files/Pods-Butaghae/Pods-Butaghae.release.xcconfig"; sourceTree = "<group>"; };
@@ -549,6 +551,7 @@
 		52CF0D8B2877D6060008B979 /* Jinseong */ = {
 			isa = PBXGroup;
 			children = (
+				52CF0D8C2877D7A20008B979 /* JinseongTest.swift */,
 			);
 			path = Jinseong;
 			sourceTree = "<group>";
@@ -712,6 +715,7 @@
 				5297711A282B9230007D6288 /* Reference.swift in Sources */,
 				52E864DE281B995A0012CB3C /* ApiError.swift in Sources */,
 				529770C7282848B3007D6288 /* AppleLoginManager.swift in Sources */,
+				52CF0D8D2877D7A20008B979 /* JinseongTest.swift in Sources */,
 				5297710C282B8F55007D6288 /* FireStore.swift in Sources */,
 				529770C12822A8BE007D6288 /* AppToken.swift in Sources */,
 				529770E12829E794007D6288 /* CustomConfirmButton.swift in Sources */,
