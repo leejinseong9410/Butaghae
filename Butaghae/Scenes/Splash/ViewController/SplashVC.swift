@@ -49,7 +49,11 @@ class SplashVC: BasicVC {
     // MARK: Helpers
     
     private func rxBind() {
-        showNextVC()
+        viewModel.input.checkUserData
+            .bind(with: self, onNext: { owner, res in
+                owner.showNextVC()
+            })
+            .disposed(by: disposeBag)
     }
     
     private func showNextVC() {

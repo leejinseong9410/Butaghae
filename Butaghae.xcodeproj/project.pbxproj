@@ -39,7 +39,6 @@
 		529770F1282A187C007D6288 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770F0282A187C007D6288 /* RegisterVC.swift */; };
 		529770F4282A1B1C007D6288 /* SystemPopupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770F3282A1B1C007D6288 /* SystemPopupManager.swift */; };
 		529770F7282A1C45007D6288 /* Vibration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770F6282A1C45007D6288 /* Vibration.swift */; };
-		529770FA282A398E007D6288 /* UserSingletone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770F9282A398E007D6288 /* UserSingletone.swift */; };
 		529770FC282A3EE7007D6288 /* ReflectedStringConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770FB282A3EE7007D6288 /* ReflectedStringConvertible.swift */; };
 		529770FF282A4339007D6288 /* SignModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529770FE282A4339007D6288 /* SignModel.swift */; };
 		52977101282B8386007D6288 /* FirebasManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52977100282B8385007D6288 /* FirebasManager.swift */; };
@@ -101,7 +100,6 @@
 		529770F0282A187C007D6288 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		529770F3282A1B1C007D6288 /* SystemPopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemPopupManager.swift; sourceTree = "<group>"; };
 		529770F6282A1C45007D6288 /* Vibration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vibration.swift; sourceTree = "<group>"; };
-		529770F9282A398E007D6288 /* UserSingletone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingletone.swift; sourceTree = "<group>"; };
 		529770FB282A3EE7007D6288 /* ReflectedStringConvertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectedStringConvertible.swift; sourceTree = "<group>"; };
 		529770FE282A4339007D6288 /* SignModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignModel.swift; sourceTree = "<group>"; };
 		52977100282B8385007D6288 /* FirebasManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebasManager.swift; sourceTree = "<group>"; };
@@ -211,7 +209,6 @@
 		529770F8282A3974007D6288 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				529770F9282A398E007D6288 /* UserSingletone.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -511,6 +508,7 @@
 		52BBDF072819157B00F73C29 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				52CF0D8B2877D6060008B979 /* Jinseong */,
 				529770F5282A1C39007D6288 /* FeedBack */,
 				529770F2282A1B0F007D6288 /* PopUp */,
 				52BBDEEC28190C1C00F73C29 /* API */,
@@ -546,6 +544,13 @@
 				529770BD2822A80F007D6288 /* UserdefaultsManager.swift */,
 			);
 			path = Support;
+			sourceTree = "<group>";
+		};
+		52CF0D8B2877D6060008B979 /* Jinseong */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Jinseong;
 			sourceTree = "<group>";
 		};
 		52E864CF281B934D0012CB3C /* Social */ = {
@@ -720,7 +725,6 @@
 				529770E32829EA0A007D6288 /* UIButton + module.swift in Sources */,
 				52BBDF24281A21AA00F73C29 /* SplashVM.swift in Sources */,
 				529770DF2829DFE7007D6288 /* CustomConfirmView.swift in Sources */,
-				529770FA282A398E007D6288 /* UserSingletone.swift in Sources */,
 				529770E9282A0967007D6288 /* String + Formate.swift in Sources */,
 				529770BA2822876D007D6288 /* Hospital.swift in Sources */,
 				52BBDF1128193A0000F73C29 /* BasicVC.swift in Sources */,

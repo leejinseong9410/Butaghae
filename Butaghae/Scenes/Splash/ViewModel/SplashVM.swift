@@ -48,13 +48,6 @@ extension SplashVM {
     private func userDataCheck() {
         dependency.coreDataManager
             .getCoreDataAllData()
-            .do(onError: { [weak self] e in
-                self?.output.error.accept((e, .requestError))
-            })
-                .subscribe(with: self, onNext: { owner, res in
-                    print("DEBUG: UserDataCheck Method💛\(res)")
-                })
-                .disposed(by: disposeBag)
     }
     
 }

@@ -84,7 +84,7 @@ class BasicVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        setupLayoutGuideView()
+        setupNavigationController()
         enableUserInteraction()
     }
     
@@ -178,7 +178,6 @@ class BasicVC: UIViewController {
         let isShow = (btnImages.0 != nil) || (btnImages.1 != nil) || (btnText != nil)
         return isShow
     }
-    
     
     // MARK: View Bg Color (Must Override)
     
@@ -425,7 +424,8 @@ class BasicVC: UIViewController {
         }
         contentView.snp.makeConstraints {
             $0.top.equalTo(customTopNavigationBarView.snp.bottom)
-            $0.left.right.bottom.equalToSuperview()
+            $0.left.right.equalToSuperview()
+            $0.bottom.equalTo(layoutGuideView)
         }
     }
     
@@ -451,6 +451,20 @@ extension UIApplication {
         }
         
         return keyWindow
+    }
+    
+}
+
+extension BasicVC: UIGestureRecognizerDelegate {
+    
+    fileprivate func hideNavigationBar() {
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    fileprivate func setupNavigationController() {
+        navigationController?.interactivePopGestureRecognizer?.delegate = self
+        
+        hideNavigationBar()
     }
     
 }

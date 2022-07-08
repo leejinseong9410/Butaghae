@@ -6,12 +6,14 @@
 //
 
 import Foundation
+import CoreData
 
-struct UserInfoRes: Codable {
-    var userInfo: UserInfo?
-}
-
-struct UserInfo: Codable {
-    var phoneNumber: String?
-    var userId: String?
+struct UserInfo {
+    var manager: NSManagedObject?
+    var phoneNumber: Int
+    
+    init(manager: NSManagedObject = NSManagedObject()) {
+        self.manager = manager
+        self.phoneNumber = manager.value(forKey: "phoneNumber") as? Int ?? 0
+    }
 }
