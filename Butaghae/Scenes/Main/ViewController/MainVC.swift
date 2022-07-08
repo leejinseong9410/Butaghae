@@ -9,7 +9,7 @@ import Foundation
 import SnapKit
 import AuthenticationServices
 
-class MainVC: BasicVC {
+class MainVC: BaseVC {
     
     // MARK: Views
 

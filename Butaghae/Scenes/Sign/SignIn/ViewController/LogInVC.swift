@@ -12,7 +12,7 @@ import RxSwift
 import RxCocoa
 import Then
 
-class LogInVC: BasicVC {
+class LogInVC: BaseVC {
     
     // MARK: Views
     

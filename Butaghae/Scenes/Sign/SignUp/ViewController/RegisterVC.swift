@@ -11,7 +11,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-class RegisterVC: BasicVC {
+class RegisterVC: BaseVC {
     
     // MARK: Views
     

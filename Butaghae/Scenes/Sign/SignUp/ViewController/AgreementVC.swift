@@ -11,7 +11,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-class AgreementVC: BasicVC {
+class AgreementVC: BaseVC {
     
     // MARK: Views
     

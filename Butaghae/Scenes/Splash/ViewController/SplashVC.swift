@@ -11,7 +11,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-class SplashVC: BasicVC {
+class SplashVC: BaseVC {
     
     // MARK: Views
     

@@ -11,7 +11,7 @@ import SnapKit
 import RxSwift
 import RxCocoa
 
-class VerifyVC: BasicVC {
+class VerifyVC: BaseVC {
     
     // MARK: Views
     

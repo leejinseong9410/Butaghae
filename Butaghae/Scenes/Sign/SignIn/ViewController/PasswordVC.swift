@@ -10,7 +10,7 @@ import SnapKit
 import UIKit
 import Then
 
-class PasswordVC: BasicVC {
+class PasswordVC: BaseVC {
     
     // MARK: Views
     

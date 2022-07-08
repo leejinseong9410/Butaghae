@@ -1,0 +1,35 @@
+//
+//  CommonUtil.swift
+//  Butaghae
+//
+//  Created by MacBookPro on 2022/07/08.
+//
+
+import Foundation
+import UIKit
+
+class CommonUtil {
+    
+    enum UpdateType {
+        case optional
+        case required
+        case none
+    }
+    
+    func getVersion() -> String {
+        guard let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String else { return "0.0.0" }
+        
+        return appVersion
+    }
+    
+    func getBundleVersion() -> String {
+        guard let bundleVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String else { return "0" }
+        
+        return bundleVersion
+    }
+    
+    func getSystemVersion() -> String {
+        return UIDevice.current.systemVersion
+    }
+    
+}
