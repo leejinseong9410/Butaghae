@@ -64,6 +64,7 @@ enum Targets: String {
         }
         
         func getStoreLink() -> String {
+            // 스토어 링크 통해서 앱 업데이트 진행.
             switch self {
             case .a:
                 return ""
